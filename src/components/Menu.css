@@ -46,3 +46,62 @@ button {
 button:hover {
   background-color: #9e8bb8;
 }
+
+/* Estilo global */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg-default);
+  color: var(--text-default);
+}
+
+/* Cabeçalho */
+nav {
+  background-color: var(--color-soft-blush);
+  padding: 12px 0;
+  text-align: center;
+  font-weight: bold;
+  color: var(--color-charcoal-gray);
+}
+
+/* Links do menu */
+nav a {
+  color: var(--color-charcoal-gray);
+  text-decoration: none;
+  margin: 0 12px;
+  font-size: 1.1em;
+}
+nav a:hover {
+  color: var(--color-rose-gold);
+}
+
+/* Cards de produtos / seções */
+.card {
+  background-color: var(--color-lavender-mist);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin: 15px;
+}
+
+/* Botões “Pagar com PIX” / Copiar PIX */
+button {
+  background-color: var(--color-rose-gold);
+  color: white;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  background-color: var(--color-mint-green);
+}
+
+/* Títulos */
+h1, h2, h3 {
+  color: var(--color-rose-gold);
+  margin-bottom: 8px;
+}

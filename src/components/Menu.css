@@ -1,0 +1,48 @@
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 15px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+nav a:hover {
+  color: #ff4081;
+}
+
+p{
+    font-size: 20px;
+}
+
+body {
+  background-color: #F8F8FF; /* branco pérola */
+  color: #4A4A4A;           /* texto cinza escuro */
+  font-family: "Arial", sans-serif;
+}
+
+.header, .footer {
+  background-color: #F4C2D1; /* rosa suave */
+}
+
+h1, h2, h3 {
+  color: #B76E79; /* tom mais forte de rosa */
+}
+
+button {
+  background-color: #B39ACB; /* lavanda suave */
+  color: white;
+  border: none;
+  padding: 0.8em 1.2em;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #9e8bb8;
+}
